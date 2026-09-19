@@ -1,0 +1,12 @@
+{
+  "bundle_id": "local.jev.maclab",
+  "goal": "Set the Search query field to penguin, then click Search. Finish when the status shows Results for: penguin.",
+  "actions": [
+    {"op": "set_value", "selector": {"identifier": "jev.query"}, "text": "penguin"},
+    {"op": "press", "selector": {"identifier": "jev.search"}}
+  ],
+  "success": [
+    {"selector": {"identifier": "jev.query"}, "value": "penguin"},
+    {"selector": {"identifier": "jev.status"}, "value": "Results for: penguin"}
+  ]
+}

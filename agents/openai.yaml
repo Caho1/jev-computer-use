@@ -1,0 +1,13 @@
+interface:
+  display_name: Jev Mac Use
+  short_description: Fast Jev decisions over native macOS accessibility
+  default_prompt: Use $jev-mac-use to operate a Mac app with Jev and verify the result.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
